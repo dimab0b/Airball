@@ -12,10 +12,11 @@ GameObject:
   - component: {fileID: 4447760003872867293}
   - component: {fileID: 4447760003872867289}
   - component: {fileID: 6482937124800565977}
-  - component: {fileID: 4447760003872867288}
+  - component: {fileID: 5527624162294287387}
   - component: {fileID: 5858923176673448599}
   - component: {fileID: -5059421300284470240}
   - component: {fileID: -2830317023673354033}
+  - component: {fileID: 3719432320499089802}
   m_Layer: 0
   m_Name: player 1
   m_TagString: Untagged
@@ -79,7 +80,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -2413806693520163455, guid: fcd90b231624d2544a81aba3d5b74262, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9f463d2b59021614eb71bbeac2724440, type: 3}
   m_Color: {r: 1, g: 0.4764151, b: 0.92485493, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -123,7 +124,7 @@ MonoBehaviour:
   visible: 0
   m_AssetId: 0a69c22d5bd823a45b0bec26a102ecd6
   hasSpawned: 0
---- !u!114 &4447760003872867288
+--- !u!114 &5527624162294287387
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -217,3 +218,17 @@ MonoBehaviour:
   syncAngularVelocity: 0
   clearAngularVelocity: 0
   angularVelocitySensitivity: 0.1
+--- !u!114 &3719432320499089802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4447760003872867295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d17e718851449a6879986e45c458fb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1

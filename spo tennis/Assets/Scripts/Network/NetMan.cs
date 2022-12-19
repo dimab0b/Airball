@@ -30,7 +30,7 @@ public class NetMan : NetworkManager
         {
             GameObject gameObject = Instantiate(PlayerPrefab1);
             NetworkServer.AddPlayerForConnection(conn, gameObject);
-           
+
             return;
         }
 
